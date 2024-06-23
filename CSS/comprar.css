@@ -1,0 +1,47 @@
+body{
+    background: plum;
+}
+.container{
+    background-color: rgb(226, 228, 139);
+    margin-top: 10%;
+    width: 100%;
+
+}
+
+.imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    margin: 20px;
+    border: solid 5px black;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+}
+.comprado{
+    display: none;
+}
+.pajaros{
+    display: none;
+
+}
+h1{
+    display: none;
+}
+#mp{
+    display: none;
+    font-size: 40px;
+}
+#com{
+    display: none;
+    font-size: 40px;
+}

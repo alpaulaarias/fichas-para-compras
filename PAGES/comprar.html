@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/comprar.css">
+    <script src="../JQUERY/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".pajaro").click(function () {
+                $(".pajaro").attr("src", "../IMG/COMPRADO.webp")
+            })
+            $(".pajaro").click(function () {
+                $(".mas").fadeOut(1000)
+            })
+            $(".pajaro").click(function () {
+                $("#com").fadeIn(1000)
+            })
+            $(".muchas").click(function () {
+                $(".muchas").attr("src", "../IMG/BB.webp")
+                $("#com").fadeOut(1000)
+            })
+            $(".muchas").click(function () {
+                $("#mp").fadeIn(1000)
+            })
+            $(".muchas").click(function () {
+                $(".pajaro").fadeOut(1000)
+            })
+
+
+        })
+
+    </script>
+    <title>tite poq no entiendo</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="imagenes">
+        <img class="pajaro img" src="../IMG/COMPRA.jpg"pajaro">
+        
+
+            <h1 id="com"> PAJARO COMPRADO</h1>
+        <img class="muchas img " src="../IMG/MAS.jpg" alt="mas">
+        <div>
+        
+        <h1 id="mp">MAS PAJAROS</h1>
+    
+    <div class="imagenes2">
+        <img class="comprado img" src="../IMG/COMPRADO.webp" alt="comprado">
+        <img class="pajaros img" src="../IMG/BB.webp" alt="pajaros">
+    </div>
+</div>
+</body>
+
+</html>
